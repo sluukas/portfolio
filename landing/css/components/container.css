@@ -1,0 +1,40 @@
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+
+#about {
+  margin-top: 50px;
+}
+
+#projects {
+  margin-top: 50px;
+}
+
+#skills {
+  margin-top: 10px;
+ }
+
+#skills div {
+  text-align: center;
+}
+
+#skills i {
+  font-size: 2em;
+}
+
+#skills div div {
+  font-size: 0.8em;
+}
